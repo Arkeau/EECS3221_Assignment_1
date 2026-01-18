@@ -9,7 +9,7 @@
 #include <sys/wait.h>
 
 
-int a[100000]; // the global array 
+int a[100000]; // the global array cqan also be 30 and change the array down to 30
 unsigned long correct_array(int n){
     int i;
     unsigned long sum = 0;
